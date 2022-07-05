@@ -11,16 +11,18 @@ public class CustomerStorage {
         return true;
     }
 
-    public String findCustomer(Customer customerObjects){
+    public boolean findCustomer(Customer customerObjects){
         String customerFind = null;
+        boolean returnValue=false;
         for (int i = 0; i<customerStorage.size(); i++){
             if(customerObjects.equals(customerStorage.get(i))){
                 customerFind=customerStorage.get(i).getCustomerInformation();
-              // customerFind= customerStorage.indexOf(i);
-                break;
+                System.out.println(customerFind);
+                returnValue= true;
+                 break;
             }
         }
-        return customerFind.toString();
+        return returnValue;
     }
 
 

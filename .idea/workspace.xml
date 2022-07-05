@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9094fb1-8ac4-4c1c-b3a8-427b1c807809" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/CustomerStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerStorageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
+    <list default="true" id="f9094fb1-8ac4-4c1c-b3a8-427b1c807809" name="Changes" comment="Oop Workshop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/BankStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BankStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/CustomerStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/CustomerStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerStorageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +44,51 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lexicon.fundamentals.oop.Main" />
+  <component name="RunManager" selected="JUnit.CustomerStorageTest.check_if_customers_are_removed_fromStorage">
+    <configuration name="BankAccountTest.check_bankAccount_created" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_WorkShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lexicon.fundamentals.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountTest" />
+      <option name="METHOD_NAME" value="check_bankAccount_created" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.check_Customer_information" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerStorageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_WorkShop" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="check_Customer_information" />
+      <option name="MAIN_CLASS_NAME" value="CustomerStorageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStorageTest.check_if_customers_are_added_to_storage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_WorkShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerStorageTest" />
+      <option name="METHOD_NAME" value="check_if_customers_are_added_to_storage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStorageTest.check_if_customers_are_find_fromStorage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_WorkShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerStorageTest" />
+      <option name="METHOD_NAME" value="check_if_customers_are_find_fromStorage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerStorageTest.check_if_customers_are_removed_fromStorage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_WorkShop" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CustomerStorageTest" />
+      <option name="METHOD_NAME" value="check_if_customers_are_removed_fromStorage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -72,8 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CustomerTest.check_Customer_information" />
+        <item itemvalue="JUnit.CustomerStorageTest.check_if_customers_are_removed_fromStorage" />
+        <item itemvalue="JUnit.CustomerStorageTest" />
+        <item itemvalue="JUnit.BankAccountTest.check_bankAccount_created" />
+        <item itemvalue="JUnit.CustomerStorageTest.check_if_customers_are_find_fromStorage" />
+        <item itemvalue="JUnit.CustomerStorageTest.check_if_customers_are_added_to_storage" />
       </list>
     </recent_temporary>
   </component>
@@ -86,6 +113,13 @@
       <option name="presentableId" value="Default" />
       <updated>1656661659990</updated>
     </task>
+    <task id="LOCAL−00001" summary="Oop Workshop">
+      <created>1656675137109</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1656675137109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +132,36 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Oop Workshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oop Workshop" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/BankAccount.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/BankStorage.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/lexicon/fundamentals/oop/BankStorage.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CustomerStorageTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/OOP_WorkShop$Main.ic" NAME="Main Coverage Results" MODIFIED="1656669470998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
