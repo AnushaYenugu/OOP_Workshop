@@ -1,6 +1,7 @@
 package lexicon.fundamentals.oop;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class CustomerStorage {
     Customer customerObjects;
@@ -11,11 +12,11 @@ public class CustomerStorage {
         return true;
     }
 
-    public boolean findCustomer(Customer customerObjects){
+    public boolean findCustomer(Customer customerObject){
         String customerFind = null;
         boolean returnValue=false;
         for (int i = 0; i<customerStorage.size(); i++){
-            if(customerObjects.equals(customerStorage.get(i))){
+            if(customerObject.getCustomerId() == customerStorage.get(i).getCustomerId()){
                 customerFind=customerStorage.get(i).getCustomerInformation();
                 System.out.println(customerFind);
                 returnValue= true;
@@ -29,7 +30,7 @@ public class CustomerStorage {
     public boolean removeCustomer(Customer customerObjects){
         boolean customerRemove=false;
         for (int i=0;i< customerStorage.size();i++){
-            if(customerObjects.equals(customerStorage.get(i))){
+            if(customerObjects.getCustomerId()==customerStorage.get(i).getCustomerId()){
                customerStorage.remove(i);
                customerRemove=true;
                 System.out.println("The customer is removed");

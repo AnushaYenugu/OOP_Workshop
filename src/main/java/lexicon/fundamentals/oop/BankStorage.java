@@ -12,15 +12,17 @@ public class BankStorage {
         return true;
     }
 
-    public String findBankAccount(int bankId) {
-        //String value=null;
+    public boolean findBankAccount(int bankId) {
+        boolean returnValue=false;
         for (BankAccount bankAcc:bankAccountStorage) {
             if(bankAcc.getBankId()==bankId){
-                return bankAcc.getInformation();
+                System.out.println(bankAcc.getInformation());
+                returnValue=true;
+                break;
             }
             
         }
-        return null;
+        return returnValue;
     }
 
 
@@ -30,6 +32,7 @@ public class BankStorage {
                 if(bankAcc.getBankId()==bankId){
                     bankAccountStorage.remove(bankAcc);
                      value=true;
+                     break;
                 }
             }
         System.out.println("Accounts left in storage");
